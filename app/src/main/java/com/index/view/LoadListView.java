@@ -64,6 +64,7 @@ public class LoadListView extends ListView implements AbsListView.OnScrollListen
                 if (onLoadListener != null){
                     onLoadListener.onLoad();
                 }
+
             }
         }
     }
